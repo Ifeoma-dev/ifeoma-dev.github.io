@@ -1,0 +1,354 @@
+body{
+  /*font-style: normal;*/
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden !important;
+}
+
+/*.front-page{
+	background:linear-gradient(135deg, rgba(0, 51, 102, 0.7) -10%, rgba(0, 51, 102, 0.7) 95%),url(../img/nanya1-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-blend-mode: normal !important;
+    position: relative;
+    overflow-x: hidden;
+    min-height: 600px;
+   	margin-top: 4%;
+}*/
+
+.logo{
+	height: 50px !important;
+	width: 80px !important;
+	margin-top: -13px;
+	margin-bottom: 10px;
+}
+
+.navbar-default{
+	background-color: #fff !important;
+  	border-radius: 0px;
+  	border-color: transparent;
+  	padding: 13px 20px 0px 0px; 
+  	height: 70px;
+  	margin: 0px;
+  	position: fixed !important;
+}
+s
+.navbar .navbar-nav li.dropdown ul {
+	transition: all 0.9s ease;
+}
+.navbar-nav li a{
+  	color: #969da3 !important;
+  	font-size: 18px;
+  	font-style: normal;
+  	float: left;
+}
+
+.navbar-nav li a:hover{
+  	color: #0E273C !important;
+}
+
+.top-banner h2{
+	font-family: 'Passion One', cursive;
+	text-align: center;
+	font-size: 120px;
+	line-height: 100px;
+	color: white;
+	letter-spacing: -3px;
+	padding-top: 150px;
+}
+
+.top-banner p{
+	text-align: center;
+	font-size: 22px;
+	color: white;
+	letter-spacing: -0.2px;
+	padding-top: 10px;
+}
+
+.carousel-inner .item img{
+  min-width: 100%;
+  height: 660px;
+}
+.carousel-control .left{
+  background-image: none !important;
+  background-repeat: no-repeat !important;
+}
+
+.sign-up-button{
+	background-color: transparent;
+	border-color: #003767 !important;
+	border: 1px solid;
+	border-radius: 5px;
+	height: 45px;
+	font-size: 18px;
+	color: inherit;
+	margin-top: -11px;
+	cursor: pointer;
+}
+
+.sign-up-button a :hover{
+	background-color: red !important;
+}
+
+.button{
+	background-color: transparent;
+	border-color: #fff !important;
+	border: 1px solid;
+	border-radius: 5px;
+	height: 55px;
+	font-family: 'Passion One', cursive;
+	font-weight: 500px;
+	font-size: 25px;
+	color: inherit;
+	margin-top: 115px;
+	cursor: pointer;
+}
+
+.line{
+	background: #eee;
+	width: 90px;
+	height: 5px;
+	display: block;
+}
+
+.what-we-do{
+	background-size: cover;
+	color: #374048;
+	min-height: 630px;
+}
+
+.what-we-do h2{
+	text-align: center;
+	color: #003767;
+	font-family: 'Passion One', cursive;
+	font-size: 50px;
+	font-style: normal;
+	padding-top: 70px;
+}
+
+.what-we-do p{
+	text-align: center;
+	font: 300 20px/32px "Maven Pro", sans-serif;
+	color: #969da3;
+}
+
+.fa.fa-pull-right{
+	color: #003767;
+	padding: 120px 20px 0px 0px;
+}
+
+.how-it-works{
+	background-color: #f8fbfd;
+	min-height: 500px;
+	color: #374048;
+}
+
+.how-it-works h2{
+	text-align: center;
+	color: #003767;
+	font-family: 'Passion One', cursive;
+	font-size: 50px;
+	font-style: normal;
+	padding-top: 40px;
+}
+
+.how-it-works p{
+	text-align: center;
+	font: 300 20px/32px "Maven Pro", sans-serif;
+	color: #969da3;
+}
+
+.sign-up{
+	background-color: #fff;
+	min-height: 400px;
+}
+
+.sign-up h2{
+	text-align: center;
+	font-family: 'Passion One', cursive;
+	font-size: 40px;
+	color: #003767;
+	font-style: normal;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+.sign-up p{
+	text-align: center;
+	font-size: 20px;
+	font-style: normal;
+	color: #969da3;
+}
+
+.form-control{
+	height: 40px !important;
+	background-color: #f8fbfd;
+	border-color: #e0e8ee;
+	font-size: 17px; 
+	line-height: 30px;
+	display: block;
+}
+
+.form-button{
+	width: 50% !important;
+	height: 50px;
+	font-size: 25px;
+	color: #fff !important;
+	border-color: transparent;
+	cursor: pointer;
+	padding-bottom: 10px;
+
+}
+
+.form-button :hover{
+	background-color: #003767; 
+	color: #fff;
+	border-color: #003767;
+}
+.login{
+	background-color: #fff;
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 0 4px 5px 0 hsla(0,0%,89%,.7);
+}
+
+.setup-number span{
+	background: green;
+	border-radius: 6px;
+	display: block;
+	height: 3px;
+	width: 14px;
+	margin-bottom: 2px;
+
+}
+
+.feature-icon{
+	background-color: white;
+	box-shadow: 0 3px 12px -2px rgba(0, 0, 0, 0.08);
+	border-radius: 3px;
+	text-align: center;
+	padding: 30px 25px 25px;
+	margin: 10px;
+    margin-bottom: 30px;
+}
+
+.fa{
+	color:	#003767;
+}
+
+.feature-title h3{
+	color: #1DA1F2;
+	font-size: 35px;
+	font-family: 'Passion One', cursive;
+
+}
+
+
+.happy-employee{
+	background:linear-gradient(135deg, rgba(0, 51, 102, 0.8) , rgba(0, 51, 102, 0.8) ),url(../img/happy-employee.png);
+    /*background-image: url('../img/nanya-bg.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-blend-mode: normal !important;
+    position: relative;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-width: 100%;
+    height: 500px;
+}
+
+.happy-employee h2{
+	text-align: center;
+	font-family: 'Passion One', cursive;
+	font-size: 50px;
+	color: #fff;
+	padding-top: 60px;
+}
+
+
+.carousel-content {
+    color:#fff;
+    display:flex;
+    
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+#text-carousel p{
+	text-align: center;
+	font: 300 20px/32px "Maven Pro", sans-serif;
+	color: #fff;
+	padding-top: 35px;
+	padding-bottom: 100px;
+}
+
+.solution h2{
+	text-align: center;
+	color: #fff;
+}
+
+.solution p{
+	text-align: center;
+	color: #fff;
+}
+
+.solution-span{
+	background: #3bb75e;
+    border-radius: 6px;
+    display: block;
+    height: 5px;
+    width: 14px;
+    position: relative;
+    left: 60px;
+    top: 15px;
+}
+
+.solution-problem{
+	background:linear-gradient(135deg, rgba(0, 51, 102, 0.7) -10%, rgba(0, 51, 102, 0.7) 95%),url(../img/solution.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-blend-mode: normal !important;
+    min-height: 400px;
+    width: 100% !important;
+  
+}
+
+.fa-facebook-square{
+	color: #3B5998;
+}
+
+.fa-twitter-square{
+	color: #1DA1F2;
+}
+
+.fa-linkedin-square{
+	color: #0077B5;
+}
+
+.fa-google-plus-square{
+	color: #DB4437;
+}
+.footer{
+	background-color: #f8fbfd;
+	padding-top: 40px; 
+}
+
+.footer ul i{
+	padding: 0px 6px 0px 6px;
+}
+
+.footer h4{
+	font-family: 'Open Sans', sans-serif;
+	color: #003767;
+	font-weight: bold;
+}
+
+.footer p{
+	font-family: "Maven Pro", sans-serif;
+	color: #8f969d;
+}
+
